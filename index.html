@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>sandy web</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Oswald"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Open Sans"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-family: "Oswald";
+      }
+      body {
+        font-family: "Open Sans";
+      }
+    </style>
+  </head>
+  <body class="w3-light-grey">
+    <!-- Navigation bar with social media icons -->
+    <div class="w3-bar w3-black w3-hide-small">
+      <a href="#" class="w3-bar-item w3-button"
+        ><i class="fa fa-facebook-official"></i
+      ></a>
+      <a href="#" class="w3-bar-item w3-button"
+        ><i class="fa fa-instagram"></i
+      ></a>
+      <a href="#" class="w3-bar-item w3-button"
+        ><i class="fa fa-snapchat"></i
+      ></a>
+      <a href="#" class="w3-bar-item w3-button"><i class="fa fa-flickr"></i></a>
+      <a href="#" class="w3-bar-item w3-button"
+        ><i class="fa fa-twitter"></i
+      ></a>
+      <a href="#" class="w3-bar-item w3-button"
+        ><i class="fa fa-linkedin"></i
+      ></a>
+      <a href="#" class="w3-bar-item w3-button w3-right"
+        ><i class="fa fa-search"></i
+      ></a>
+    </div>
+
+    <!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+    <div class="w3-content" style="max-width: 1600px">
+      <!-- Header -->
+      <header class="w3-container w3-center w3-padding-48 w3-white">
+        <h1 class="w3-xxxlarge"><b>TIMNAS INDONESIA</b></h1>
+        <h6>Welcome to the blog of <span class="w3-tag">BIODATA TIMNAS</span></h6>
+      </header>
+
+      <!-- Image header -->
+      <header class="w3-display-container w3-wide" id="home">
+        <img
+          class="w3-image"
+          src="sekuad.jpg"
+          alt="Fashion Blog"
+          width="1600"
+          height="1060"
+        />
+        <div class="w3-display-left w3-padding-large">
+          <h1 class="w3-text-white">timnas</h1>
+          <h1 class="w3-jumbo w3-text-white w3-hide-small">
+            <b>INDONESIA</b>
+          </h1>
+          <h6></h6>
+        </div>
+      </header>
+
+      <!-- Grid -->
+      <div class="w3-row w3-padding w3-border">
+        <!-- Blog entries -->
+        <div class="w3-col l8 s12">
+          <!-- Blog entry -->
+          <div class="w3-container w3-white w3-margin w3-padding-large">
+            <div class="w3-center">
+              <h3>ERNANDO ARI</h3>
+              
+            </div>
+
+            <div class="w3-justify">
+              <img
+                src="ari.jpg"
+                alt="Girl Hat"
+                style="width: 100%"
+                class="w3-padding-16"
+              />
+              <p>
+                Ernando Ari menjadi salah satu hal menarik yang sering diperbincangkan para pecinta
+                 sepak bola belakangan ini. Pasalnya Timnas Indonesia U-23 telah berhasil menuju ke perempat
+                 final Piala Asia U-23.
+                 ADVERTISEMENT.Timnas Indonesia mampu lolos dalam fase grup dan melangkah menuju perempat final. Keberhasilan
+                  tersebut tidak luput dari prestasi penjaga gawangnya
+                  yaitu Ernando Ari Sutaryadi. Ernando Ari mampu menjaga gawang Timnas dari serangan musuh.
+                 Kemampuan Ernando Ari sebagai kiper tidak dapat diragukan lagi. Ernando Ari mampu menahan tendangan
+                  penalti ketika menghadapi Australia. Saat pertandingan terakhir ketika melawan Yordania, Ernando Ari melakukan
+                   beberapa aksi penyelamatan selama permainan berlangsung.
+
+
+              </p>
+              <p class="w3-left">
+                <button
+                  class="w3-button w3-white w3-border"
+                  onclick="likeFunction(this)"
+                >
+                  <b><i class="fa fa-thumbs-up"></i> Like</b>
+                </button>
+              </p>
+              <p class="w3-right">
+                <button
+                  class="w3-button w3-black"
+                  onclick="myFunction('demo1')"
+                  id="myBtn"
+                >
+                  <b>Replies  </b> <span class="w3-tag w3-white">1</span>
+                </button>
+              </p>
+              <p class="w3-clear"></p>
+              <div
+                class="w3-row w3-margin-bottom"
+                id="demo1"
+                style="display: none"
+              >
+                <hr />
+
+              </div>
+            </div>
+          </div>
+          <hr />
+
+          <!-- Blog entry -->
+           <div class="w3-container w3-white w3-margin w3-padding-large">
+            <div class="w3-center">
+              <h3>ASNAWI MANGKUALAM</h3>
+              
+            </div>
+
+            <div class="w3-justify">
+              <img
+                src="Asnawi.jpg"
+                alt="Girl Hat"
+                style="width: 100%"
+                class="w3-padding-16"
+              />
+              <p>
+                Asnawi Mangkualam Bahar (lahir 4 Oktober 1999) adalah pesepakbola profesional Indonesia yang bermain untuk
+                 klub Liga 1 Thailand Port F.C. dan kapten tim nasional 
+                Indonesia. Berposisi sebagai bek kanan, ia juga bisa bermain di posisi bek sayap dan gelandang bertahan.
+              </p>
+              <p class="w3-left">
+                <button
+                  class="w3-button w3-white w3-border"
+                  onclick="likeFunction(this)"
+                >
+                  <b><i class="fa fa-thumbs-up"></i> Like</b>
+                </button>
+              </p>
+              <p class="w3-right">
+                <button
+                  class="w3-button w3-black"
+                  onclick="myFunction('demo1')"
+                  id="myBtn"
+                >
+                  <b>Replies  </b> <span class="w3-tag w3-white">1</span>
+                </button>
+              </p>
+              <p class="w3-clear"></p>
+              <div
+                class="w3-row w3-margin-bottom"
+                id="demo1"
+                style="display: none"
+              >
+                <hr />
+
+              </div>
+            </div>
+          </div>
+          <hr />
+
+          <!-- Blog entry -->
+          <div class="w3-container w3-white w3-margin w3-padding-large">
+            <div class="w3-center">
+              <h3>RIZKY RIDHO</h3>
+              
+            </div>
+
+            <div class="w3-justify">
+              <img
+                src="rizky-ridho_1.jpg"
+                alt="Girl Hat"
+                style="width: 100%"
+                class="w3-padding-16"
+              />
+              <p>
+                Rizky Ridho Ramadhani (lahir 21 November 2001) adalah seorang pemain sepak bola profesional
+                 Indonesia yang bermain sebagai bek tengah untuk klub Liga 1, Persija Jakarta dan Tim nasional 
+                 Indonesia.Karier klubPersebaya Surabaya
+                 Sejak 2018 hingga 2019, Rizky Ridho merupakan pemain akademi Persebaya, ia tergabung dalam skuat Persebaya U-20 yang berlaga di Liga 1 U-20 2019. Alhasil, ia menjadi pemain inti dalam tim yang menjuarai ajang tersebut di bawah asuhan pelatih Uston Nawawi, Penampilan impresifnya, ia dipromosikan ke tim senior pada tahun 2020. Debutnya bersama Persebaya ia lakukan dalam pertandingan persahabatan melawan Persis Solo di Stadion Gelora Bung Tomo pada 11 Januari 2020.[3] Rizky Ridho melakukan debutnya di liga bersama Persebaya Surabaya pada 13 Maret 2020 sebagai starter dalam pertandingan melawan Persipura 
+                 Jayapura pada kompetisi Liga 1 2020 yang berakhir setelah tiga pertandingan karena pandemi COVID-19.[4][5]
+
+              </p>
+              <p class="w3-left">
+                <button
+                  class="w3-button w3-white w3-border"
+                  onclick="likeFunction(this)"
+                >
+                  <b><i class="fa fa-thumbs-up"></i> Like</b>
+                </button>
+              </p>
+              <p class="w3-right">
+                <button
+                  class="w3-button w3-black"
+                  onclick="myFunction('demo1')"
+                  id="myBtn"
+                >
+                  <b>Replies  </b> <span class="w3-tag w3-white">1</span>
+                </button>
+              </p>
+              <p class="w3-clear"></p>
+              <div
+                class="w3-row w3-margin-bottom"
+                id="demo1"
+                style="display: none"
+              >
+                <hr />
+
+              </div>
+            </div>
+          </div>
+          <hr />
+
+          <!-- Blog entry -->
+          <div class="w3-container w3-white w3-margin w3-padding-large">
+            <div class="w3-center">
+              <h3>SANDY WALSH</h3>
+              
+            </div>
+
+            <div class="w3-justify">
+              <img
+                src="Sandy.jpg"
+                alt="Girl Hat"
+                style="width: 100%"
+                class="w3-padding-16"
+              />
+              <p>
+                Sandy Walsh juga sudah sempat dilirik oleh Luis Milla, sang pelatih Timnas Indonesia yang menjabat sebelum pelatih Sin Tae-yong. Namun, proses naturalisasi dari Sandy Walsh masih menemui hambatan.
+Sandy Walsh mengatakan bahwa dirinya berniat untuk membela Timnas Indonesia di Kualifikasi Piala Dunia 2022 Zona Asia pada Juni 2021. Namun, keinginannya belum terwujud.
+Sandy Walsh pun akhirnya rutin berkomunikasi dengan Shin Tae-yong dan berpeluang membela skuad Garuda.
+Sandy Walsh lahir di Belgia tepat pada tanggal 14 Maret tahun 1995 dan berasal dari negara Belanda. 
+Meskipun lahir di Belgia, asal-usul keluarga Sandy Walsh diketahui bahwa ayahnya merupakan keturunan Inggris dan Irlandia, sedangkan ibunya memiliki keturunan Swiss-Belanda dan Indonesia.
+Ayah dari Sandy Walsh bernama Gary Walsh dan sang ibu bernama Brigtta Portier. Berdasarkan penelusuran dari berbagai sumber, diketahui bahwa agama yang dianut oleh Sandy Walsh adalah agama Kristen.
+
+              </p>
+              <p class="w3-left">
+                <button
+                  class="w3-button w3-white w3-border"
+                  onclick="likeFunction(this)"
+                >
+                  <b><i class="fa fa-thumbs-up"></i> Like</b>
+                </button>
+              </p>
+              <p class="w3-right">
+                <button
+                  class="w3-button w3-black"
+                  onclick="myFunction('demo1')"
+                  id="myBtn"
+                >
+                  <b>Replies  </b> <span class="w3-tag w3-white">1</span>
+                </button>
+              </p>
+              <p class="w3-clear"></p>
+              <div
+                class="w3-row w3-margin-bottom"
+                id="demo1"
+                style="display: none"
+              >
+                <hr />
+
+              </div>
+            </div>
+          </div>
+          <hr />
+
+          <!-- Blog entry -->
+          <div class="w3-container w3-white w3-margin w3-padding-large">
+            <div class="w3-center">
+              <h3>JAY IDZES</h3>
+              
+            </div>
+
+            <div class="w3-justify">
+              <img
+                src="jay.jpg"
+                alt="Girl Hat"
+                style="width: 100%"
+                class="w3-padding-16"
+              />
+              <p>
+                Jay Idzes usai menjalani sumpah dan janji sebagai Warga Negara Indonesia di Kantor Wilayah Kemenkumham DKI Jakarta (c) Bagaskara Lazuardi
+
+                Jay Idzes adalah pemain kelahiran Mierlo. Sebuah desa yang terletak di Provinsi Brabant Utara, dengan luas 18 kilometer persegi.
+                
+                Jay Idzes kali pertama tercatat muncul di sepak bola saat bergabung dengan Akademi Mifano. Di klub kecil itu, ia berkenalan lebih dalam dengan sepak bola.
+                
+                Di Akademi Mifano, Jay Idzes belajar teknik sepak bola dasar. Sampai akhirnya tidak berselang lama pemandu bakat dari PSV melihat dan tertarik dengannya.
+                
+                PSV kemudian merekrutnya dengan kali pertama masuk ke dalam tim usia muda. Ketika itu, usia Jay Idzes kira-kira masih 15 tahun.
+                
+                Di Akademi PSV, Jay Idzes terus berkembang. Banyak kejuaraan yang diikutinya, baik tingkat domestik maupun internasional.
+                
+                Bisa dikatakan di PSV itulah Jay Idzes mulai serius merintis karier di sepak bola. Ia tekun mengikuti seluruh proses latihan dan pertandingan.
+                
+                
+
+
+              </p>
+              <p class="w3-left">
+                <button
+                  class="w3-button w3-white w3-border"
+                  onclick="likeFunction(this)"
+                >
+                  <b><i class="fa fa-thumbs-up"></i> Like</b>
+                </button>
+              </p>
+              <p class="w3-right">
+                <button
+                  class="w3-button w3-black"
+                  onclick="myFunction('demo1')"
+                  id="myBtn"
+                >
+                  <b>Replies  </b> <span class="w3-tag w3-white">1</span>
+                </button>
+              </p>
+              <p class="w3-clear"></p>
+              <div
+                class="w3-row w3-margin-bottom"
+                id="demo1"
+                style="display: none"
+              >
+                <hr />
+
+              </div>
+            </div>
+          </div>
+          <hr />
+
+          <!-- Blog entry -->
+          <div class="w3-container w3-white w3-margin w3-padding-large">
+            <div class="w3-center">
+              <h3>PRATAMA ARHAN</h3>
+              
+            </div>
+
+            <div class="w3-justify">
+              <img
+                src="pratama.jpg"
+                alt="Girl Hat"
+                style="width: 100%"
+                class="w3-padding-16"
+              />
+              <p>
+                Nama Pratama Arhan pertama kali mencuat saat dapat panggilan dari Shin Tae-yong ke Timnas Indonesia U-19. Ketika itu, Shin Tae-yong telah menyiapkan tim untuk Piala Dunia U-19 2022.
+
+Arhan tampil apik bersama Indonesia U-19. Dia mulai menonjol dengan lemparan ke dalam jarak jauhnya. Hanya saja, tim tersebut urung bermain di Piala Dunia U-20 karena Covid-19.
+
+Setelah itu, dikutip dari Transfermarkt, Arhan menjalani debut bersama Timnas Indonesia pada level senior. Pada usia yang masih 19 tahun, Arhan sudah tampil pada level senior.
+
+Arhan terus menjadi andalan Shin Tae-yong, baik pada level usia maupun senior. Arhan bahkan tetapi jadi andalan ketika banyak pemain naturalisasi datang. Sejauh ini, Arhan sudah punya 42 caps bersama Timnas Indonesia.
+
+
+              </p>
+              <p class="w3-left">
+                <button
+                  class="w3-button w3-white w3-border"
+                  onclick="likeFunction(this)"
+                >
+                  <b><i class="fa fa-thumbs-up"></i> Like</b>
+                </button>
+              </p>
+              <p class="w3-right">
+                <button
+                  class="w3-button w3-black"
+                  onclick="myFunction('demo1')"
+                  id="myBtn"
+                >
+                  <b>Replies  </b> <span class="w3-tag w3-white">1</span>
+                </button>
+              </p>
+              <p class="w3-clear"></p>
+              <div
+                class="w3-row w3-margin-bottom"
+                id="demo1"
+                style="display: none"
+              >
+                <hr />
+
+              </div>
+            </div>
+          </div>
+          <hr />
+
+          <!-- Blog entry -->
+          <div class="w3-container w3-white w3-margin w3-padding-large">
+            <div class="w3-center">
+              <h3>RAFAEL STRUICK</h3>
+              
+            </div>
+
+            <div class="w3-justify">
+              <img
+                src="rafaels.jpg"
+                alt="Girl Hat"
+                style="width: 100%"
+                class="w3-padding-16"
+              />
+              <p>
+                Rafael William Struick alias Rafael Struick lahir pada 27 Maret 2003 di Leidschendam, Belanda.
+                Pesepakbola berusia 20 tahun ini lahir dari orang tua bernama Brian Struick dan Soraya 
+                 Soedito.
+
+                 Kedua orang tua Rafael Struick berkewarganegaraan Belanda. Hanya saja mereka memiliki darah 
+                 Indonesia. Ibu Rafael berdarah Jawa dan Suriname. Sementara, sang ayah memiliki ibu (nenek Rafael)
+                  yang berasal dari Semarang, Indonesia
+
+
+              </p>
+              <p class="w3-left">
+                <button
+                  class="w3-button w3-white w3-border"
+                  onclick="likeFunction(this)"
+                >
+                  <b><i class="fa fa-thumbs-up"></i> Like</b>
+                </button>
+              </p>
+              <p class="w3-right">
+                <button
+                  class="w3-button w3-black"
+                  onclick="myFunction('demo1')"
+                  id="myBtn"
+                >
+                  <b>Replies  </b> <span class="w3-tag w3-white">1</span>
+                </button>
+              </p>
+              <p class="w3-clear"></p>
+              <div
+                class="w3-row w3-margin-bottom"
+                id="demo1"
+                style="display: none"
+              >
+                <hr />
+
+              </div>
+            </div>
+          </div>
+          <hr />
+
+          <!-- Blog entry -->
+          <div class="w3-container w3-white w3-margin w3-padding-large">
+            <div class="w3-center">
+              <h3>MARSELINO FERDINAN</h3>
+              <h5>
+                
+            </div>
+
+            <div class="w3-justify">
+              <img
+                src="marselino.jpg"
+                alt="Men in Hats"
+                style="width: 100%"
+                class="w3-padding-16"
+              />
+              Marselino Ferdinan Philipus (lahir 9 September 2004) adalah pemain sepak bola profesional yang bermain sebagai gelandang serang untuk
+               tim Divisi Kedua Inggris Oxford United dan tim nasional Indonesia.[3]
+
+              Marselino mengawali karier profesionalnya bersama Persebaya Surabaya pada tahun
+               2021. Dia adalah salah satu jebolan kompetisi internal Persebaya, kompetisi yang juga diikuti Rizky 
+               Ridho, dan rutin berkompetisi secara internal.[4] Di tahun pertamanya, dia mendapatkan penghargaan pemain muda
+                terbaik dan masuk dalam 60 talenta muda dan menjanjikan buatan The Guardian.[5]
+              
+              Kariernya di tim nasional dimulai pada tahun 2022, menjadikannya sebagai pemain dengan usia debut termuda 
+              kedua. Golnya di kualifikasi Piala Asia AFC 2023 menjadi gol dengan pencetak gol termuda untuk tim nasional
+              </p>
+              <p class="w3-left">
+                <button
+                  class="w3-button w3-white w3-border"
+                  onclick="likeFunction(this)"
+                >
+                  <b><i class="fa fa-thumbs-up"></i> Like</b>
+                </button>
+              </p>
+              <p class="w3-right">
+                <button
+                  class="w3-button w3-black"
+                  onclick="myFunction('demo2')"
+                >
+                  <b>Replies  </b> <span class="w3-tag w3-white">2</span>
+                </button>
+              </p>
+              <p class="w3-clear"></p>
+
+              <!-- Example of comment field -->
+              <div id="demo2" style="display: none">
+                <div class="w3-row">
+                  <hr />
+                  <div class="w3-col l2 m3">
+                    <img src="/w3images/girl_train.jpg" style="width: 90px" />
+                  </div>
+                  <div class="w3-col l10 m9">
+                    <h4>
+                      Amber
+                      <span class="w3-opacity w3-medium"
+                        >April 26, 2015, 10:52 PM</span
+                      >
+                    </h4>
+                    <p>
+                      Love your blog page! Simply the best! Lorem ipsum dolor
+                      sit amet, consectetur adipiscing elit, sed do eiusmod
+                      tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                    <br />
+                  </div>
+                </div>
+                <div class="w3-row w3-margin-bottom">
+                  <div class="w3-col l2 m3">
+                    <img src="/w3images/girl.jpg" style="width: 90px" />
+                  </div>
+                  <div class="w3-col l10 m9">
+                    <h4>
+                      Angie
+                      <span class="w3-opacity w3-medium"
+                        >April 23, 2015, 9:12 PM</span
+                      >
+                    </h4>
+                    <p>Love hats!!</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="w3-container w3-white w3-margin w3-padding-large">
+            <div class="w3-center">
+              <h3>MARCKLOK</h3>
+              
+            </div>
+
+            <div class="w3-justify">
+              <img
+                src="marcklok.jpg"
+                alt="Girl Hat"
+                style="width: 100%"
+                class="w3-padding-16"
+              />
+              <p>
+                Marc Anthony Klok (lahir 20 April 1993) adalah pemain sepak bola profesional yang berposisi sebagai gelandang
+ untuk klub Liga 1 Persib Bandung. Lahir di Belanda, ia mewakili warga negara Indonesia
+ tim.[3]
+
+Klok memulai karirnya di Utrecht. Pada tahun 2013, dia menandatangani kontrak dengan klub Liga Utama Skotlandia Ross County. Setelah satu
+ musim di Skotlandia, Klok bergabung Cherno More Varna di mana dia memenangkan satu Piala Bulgaria dan satu Piala Super Bulgaria.
+ Setelah meninggalkan Cherno More pada akhir musim 2015-16, dia bergabung dengan Oldham Athletic dan bermain sebentar untuk
+ Tim Skotlandia Dundee sebelum pindah ke Indonesia pada April 2017, mewakili PSM Makassar, Persija Jakarta,
+ dan Persib Bandung.
+
+Lahir di Belanda, Klok memilih mewakili Indonesia setelah memperoleh kewarganegaraan Indonesia dan meraih gelarnya
+ debut pada tahun 2022. Dia mewakili negara di Piala Asia AFC pada tahun 2023
+
+
+              </p>
+              <p class="w3-left">
+                <button
+                  class="w3-button w3-white w3-border"
+                  onclick="likeFunction(this)"
+                >
+                  <b><i class="fa fa-thumbs-up"></i> Like</b>
+                </button>
+              </p>
+              <p class="w3-right">
+                <button
+                  class="w3-button w3-black"
+                  onclick="myFunction('demo1')"
+                  id="myBtn"
+                >
+                  <b>Replies  </b> <span class="w3-tag w3-white">1</span>
+                </button>
+              </p>
+              <p class="w3-clear"></p>
+              <div
+                class="w3-row w3-margin-bottom"
+                id="demo1"
+                style="display: none"
+              >
+                <hr />
+
+              </div>
+            </div>
+          </div>
+          <hr />
+
+          <!-- Blog entry -->
+          <div class="w3-container w3-white w3-margin w3-padding-large">
+            <div class="w3-center">
+              <h3>IVAR JENNER</h3>
+              <h5>
+                
+            </div>
+
+            <div class="w3-justify">
+              <img
+                src="ivar.jpg"
+                alt="Men in Hats"
+                style="width: 100%"
+                class="w3-padding-16"
+              />
+            
+                Ivar Jenner lahir di Kota Utrecht, Belanda pada 
+                10 Januari 2004. Pemain yang kini berusia 19 tahun ini merupakan pemain versatile. Ia dapat 
+                bermain di tiga posisi lini tengah yakni gelandang bertahan, tengah dan serang.
+              </p>
+              <p class="w3-left">
+                <button
+                  class="w3-button w3-white w3-border"
+                  onclick="likeFunction(this)"
+                >
+                  <b><i class="fa fa-thumbs-up"></i> Like</b>
+                </button>
+              </p>
+              <p class="w3-right">
+                <button
+                  class="w3-button w3-black"
+                  onclick="myFunction('demo2')"
+                >
+                  <b>Replies  </b> <span class="w3-tag w3-white">2</span>
+                </button>
+              </p>
+              <p class="w3-clear"></p>
+
+              <!-- Example of comment field -->
+              <div id="demo2" style="display: none">
+                <div class="w3-row">
+                  <hr />
+                  <div class="w3-col l2 m3">
+                    <img src="/w3images/girl_train.jpg" style="width: 90px" />
+                  </div>
+                  <div class="w3-col l10 m9">
+                    <h4>
+                      Amber
+                      <span class="w3-opacity w3-medium"
+                        >April 26, 2015, 10:52 PM</span
+                      >
+                    </h4>
+                    <p>
+                      Love your blog page! Simply the best! Lorem ipsum dolor
+                      sit amet, consectetur adipiscing elit, sed do eiusmod
+                      tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                    <br />
+                  </div>
+                </div>
+                <div class="w3-row w3-margin-bottom">
+                  <div class="w3-col l2 m3">
+                    <img src="/w3images/girl.jpg" style="width: 90px" />
+                  </div>
+                  <div class="w3-col l10 m9">
+                    <h4>
+                      Angie
+                      <span class="w3-opacity w3-medium"
+                        >April 23, 2015, 9:12 PM</span
+                      >
+                    </h4>
+                  
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <!-- Blog entry -->
+          <div class="w3-container w3-white w3-margin w3-padding-large">
+            <div class="w3-center">
+              <h3>JUSTIN HUBNER</h3>
+              
+            </div>
+
+            <div class="w3-justify">
+              <img
+                src="Justin.jpg"
+                alt="Runway"
+                style="width: 100%"
+                class="w3-padding-16"
+              />
+              <p>
+                Justin Quincy Hubner merupakan pemain kelahiran Den Bosch, Belanda pada 14 September 2003. Ibunya merupakan orang asli Belanda, sementara ayahnya berasal dari
+                 Indonesia dengan keluarga yang menetap di Jakarta dan Makassar. Neneknya juga warga Indonesia asal Bandung.
+
+Karier profesional Hubner diawali dengan bergabung ke berbagai akademi sepak bola di Belanda,
+ seperti VVTGG, Willem II (2013), Brabant United (2017), dan FC Den Boshc (2017-2020). Ia kemudian 
+ hijrah ke Inggris untuk menimba ilmu di akademi Wolvers pada 2020.
+              </p>
+              <p class="w3-left">
+                <button
+                  class="w3-button w3-white w3-border"
+                  onclick="likeFunction(this)"
+                >
+                  <b><i class="fa fa-thumbs-up"></i> Like</b>
+                </button>
+              </p>
+              <p class="w3-right">
+                <button
+                  class="w3-button w3-black"
+                  onclick="myFunction('demo3')"
+                >
+                  <b>Replies  </b> <span class="w3-tag w3-white">3</span>
+                </button>
+              </p>
+              <p class="w3-clear"></p>
+
+              <!-- Example of comment field -->
+              <div id="demo3" style="display: none">
+                <hr />
+                <div class="w3-row w3-margin-bottom">h
+                  <div class="w3-col l2 m3">
+                    <img
+                      src="hore.jpg"
+                      style="width: 90px"
+                    />
+                  </div>
+                  <div class="w3-col l10 m9">
+                    <h4>
+                      Jane
+                      <span class="w3-opacity w3-medium"
+                        >April 10, 2015, 7:22 PM</span
+                      >
+                    </h4>
+                    <p>That was a great runway show! Thanks for everything.</p>
+                  </div>
+                </div>
+                <div class="w3-row w3-margin-bottom">
+                  <div class="w3-col l2 m3">
+                    <img src="putih.jpg" style="width: 90px" />
+                  </div>
+                  <div class="w3-col l10 m9">
+                    <h4>
+                      John
+                      <span class="w3-opacity w3-medium"
+                        >April 8, 2015, 10:32 PM</span
+                      >
+                    </h4>
+                    <p>
+                      Keep up the GREAT work! I am cheering for you!! Lorem
+                      ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                      eiusmod tempor incididunt.
+                    </p>
+                  </div>
+                </div>
+                <div class="w3-row w3-margin-bottom">
+                  <div class="w3-col l2 m3">
+                    <img src="merah.jpg" style="width: 90px" />
+                  </div>
+                  <div class="w3-col l10 m9">
+                    <h4>
+                      Anja
+                      <span class="w3-opacity w3-medium"
+                        >April 7, 2015, 9:12 PM</span
+                      >
+                    </h4>
+                    <p>Cant wait for the runway to start!</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- END BLOG ENTRIES -->
+        </div>
+
+        <!-- About/Information menu -->
+        <div class="w3-col l4">
+          <!-- About Card -->
+          <div class="w3-white w3-margin">
+            <img
+              src="sty.jpg"
+              alt="Jane"
+              style="width: 100%"
+              class="w3-grayscale"
+            />
+            <div class="w3-container w3-black">
+              <h4>My Name</h4>
+              <p>
+                Just me, myself and I, exploring the universe of uknownment. I
+                have a heart of love and a interest of lorem ipsum and mauris
+                neque quam blog. I want to share my world with you.
+              </p>
+            </div>
+          </div>
+          <hr />
+
+          <!-- Posts -->
+
+
+          <!-- Inspiration -->
+          <div class="w3-white w3-margin">
+            <div class="w3-container w3-padding w3-black">
+              <h4>Inspiration</h4>
+            </div>
+            <div class="w3-row-padding w3-white">
+              <div class="w3-col s6">
+                <p>
+                  <img
+                    src="club.jpg"
+                    alt="Jeans"
+                    style="width: 100%"
+                  />
+                </p>
+                <p>
+                  <img
+                    src="merah.jpg"
+                    alt="Jeans"
+                    style="width: 100%"
+                  />
+                </p>
+              </div>
+              <div class="w3-col s6">
+                <p>
+                  <img
+                    src="putih.jpg"
+                    alt="Men in Hats"
+                    style="width: 100%"
+                    class="w3-grayscale"
+                  />
+                </p>
+                <p>
+                  <img
+                    src="hore.jpg"
+                    alt="Jeans"
+                    style="width: 100%"
+                  />
+                </p>
+              </div>
+            </div>
+          </div>
+          <hr />
+
+<!-- END About/Intro Menu -->
+</div>
+
+<!-- END GRID -->
+</div>
+
+<!-- END w3-content -->
+</div>
+
+    <!-- Footer -->
+<footer class="w3-container w3-dark-grey" style="padding:32px">
+  <a href="#" class="w3-button w3-black w3-padding-large w3-margin-bottom"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+
+<script>
+// Toggle between hiding and showing blog replies/comments
+document.getElementById("myBtn").click();
+function myFunction(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+function likeFunction(x) {
+  x.style.fontWeight = "bold";
+  x.innerHTML = "✓ Liked";
+}
+</script>
+
+</body>
+</html>
